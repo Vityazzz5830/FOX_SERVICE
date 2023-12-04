@@ -1,0 +1,33 @@
+@media screen and (max-width: 1500px) and (min-width: 1200px){
+  .main__container {
+    max-width: 1150px;
+  }
+
+  .full_container {
+    max-width: 100vw;
+  }
+
+  .header_content-uppart-rightpart-basket {
+	margin-left: 50px;
+	}
+
+	.reviewssec-content-slider-item-image {
+		width: 100%;
+	}
+
+	.reviewssec-content-slider-item:nth-child(1) > .reviewssec-content-slider-item-image {
+		width: auto !important;
+	}
+
+	.questionssec {
+		background-size: 53%;
+	}
+
+	.slick-prev, .slick-next{
+		display: none !important; 
+	}
+
+	.header_content-line img{
+		max-width: 97vw;
+	}
+}
